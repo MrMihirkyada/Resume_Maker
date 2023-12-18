@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FullResumeActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="start"
+                android:background="@drawable/image" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtFullname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="Full Name:-" />
+
+                <TextView
+                    android:id="@+id/txtPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="Phone:-" />
+
+                <TextView
+                    android:id="@+id/txtEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="Email:-" />
+
+                <TextView
+                    android:id="@+id/txtAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="Address:-" />
+
+                <TextView
+                    android:id="@+id/txtGender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="Gender:-male" />
+
+                <TextView
+                    android:id="@+id/txtMaratial"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="status:-Single" />
+
+                <TextView
+                    android:id="@+id/txtLanguage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="Language:-" />
+
+                <TextView
+                    android:id="@+id/txtHobbies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:textStyle="bold"
+                    android:text="Hobbies:-" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box2"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Educational Details"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtssc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10th(%):-80"
+            android:layout_marginHorizontal="30dp"/>
+
+        <TextView
+            android:id="@+id/txthsc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12th(%):-80"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="30dp"/>
+
+        <TextView
+            android:id="@+id/txtCollage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Graduation(%):-80"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="30dp"/>
+
+        <TextView
+            android:id="@+id/txtsscyear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passing Year(10th):-2020"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="30dp"/>
+
+        <TextView
+            android:id="@+id/txthscyear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passing Year(12th):-2022"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="30dp"/>
+
+        <TextView
+            android:id="@+id/txtcollageyear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passing Year(Graduation):-running"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box2"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Job exprience"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtJob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work as manager"
+            android:layout_marginHorizontal="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box2"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skills"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtSkills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MS office"
+            android:layout_marginHorizontal="30dp"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:weightSum="2">
+<!--        <Button-->
+<!--            android:id="@+id/btnReset"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:text="Reset"-->
+<!--            android:layout_marginHorizontal="5dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:textSize="20sp"/>-->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="back"
+            android:textSize="20sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
